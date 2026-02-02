@@ -14,10 +14,10 @@ const Header = () => {
           <nav>
             <ul className="flex gap-x-10 text-white text-sm font-medium font-montserrat">
               <li>
-                <a href="#">Home</a>
+                <a href="*">Home</a>
               </li>
               <li>
-                <a href="#">About</a>
+                <a href="#about">About</a>
               </li>
               <li>
                 <a href="#">Portfolio</a>

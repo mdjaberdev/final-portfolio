@@ -23,7 +23,7 @@ const Banner = () => {
         </div>
       </Container>
       <a
-        href="#"
+        href="#about"
         className="uppercase text-white text-[10px] font-light font-montserrat [writing-mode:vertical-lr] rotate-180 absolute right-10 bottom-10 flex items-center gap-x-1"
       >
         about us <FaRegQuestionCircle className="rotate-80" />
