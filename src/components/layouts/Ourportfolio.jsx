@@ -129,7 +129,7 @@ const Projects = () => {
               <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors"></div>
             </div>
             <div className="p-8">
-              <h3 className="text-2xl font-bold font-montserrat text-white mb-3 group-hover:text-[#FE9A00] transition-colors">
+              <h3 className="text-2xl font-bold w-100 font-montserrat text-white mb-3 group-hover:text-[#FE9A00] transition-colors">
                 Number Guessing Game
               </h3>
               <p className="text-gray-400 mb-6 h-11.25">
