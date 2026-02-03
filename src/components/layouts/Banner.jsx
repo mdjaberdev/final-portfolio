@@ -6,7 +6,7 @@ import { FaRegQuestionCircle } from "react-icons/fa";
 
 const Banner = () => {
   return (
-    <div className="bg-[#202020] py-40 relative">
+    <section className="bg-[#202020] py-40 relative">
       <Container>
         <div className="flex items-center justify-between">
           <div className="w-[48%]">
@@ -28,7 +28,7 @@ const Banner = () => {
       >
         about us <FaRegQuestionCircle className="rotate-80" />
       </a>
-    </div>
+    </section>
   );
 };
 

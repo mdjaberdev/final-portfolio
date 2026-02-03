@@ -5,7 +5,7 @@ import Container from "../Container";
 
 const Header = () => {
   return (
-    <div className="bg-[#202020] py-5">
+    <section className="bg-[#202020] py-5">
       <Container>
         <div className="flex items-center justify-between">
           <div className="">
@@ -29,7 +29,7 @@ const Header = () => {
           </nav>
         </div>
       </Container>
-    </div>
+    </section>
   );
 };
 

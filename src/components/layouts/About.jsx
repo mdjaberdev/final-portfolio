@@ -8,7 +8,7 @@ import { VscGithub } from "react-icons/vsc";
 
 const About = () => {
   return (
-    <div className="my-25" id="about">
+    <section className="my-25" id="about">
       <Container>
         <div className="flex justify-between items-center">
           <div className="">
@@ -61,7 +61,7 @@ const About = () => {
           </div>
         </div>
       </Container>
-    </div>
+    </section>
   );
 };
 
