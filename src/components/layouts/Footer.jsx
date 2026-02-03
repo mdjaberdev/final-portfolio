@@ -10,8 +10,8 @@ const Footer = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_n3d4ivg", "mu0b465", form.current, {
-        publicKey: "oAJAXeaweDx9Jczme",
+      .sendForm("service_3iwghku", "gj4o73e", form.current, {
+        publicKey: "96VcsuELGflgAzir_",
       })
       .then(
         () => {
