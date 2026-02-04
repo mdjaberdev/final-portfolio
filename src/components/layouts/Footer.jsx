@@ -106,7 +106,8 @@ const Footer = () => {
         <ScrollToTop
           smooth
           top={400}
-          className="!bg-green-400 !p-5 !h-20 !w-20 !flex items-center justify-center !rounded-full"
+          color="white"
+          className="!bg-green-400 !p-5 !h-15 !w-15 !flex items-center justify-center !rounded-full"
         />
       </div>
     </section>
