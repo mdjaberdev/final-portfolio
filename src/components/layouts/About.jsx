@@ -19,8 +19,8 @@ const About = () => {
           </div>
           <div className="">
             <h3 className="text-white text-[29px] font-russo">About Us</h3>
-            <div className="h-1 w-10 bg-white relative">
-              <div className="h-px w-50 bg-white absolute left-0 top-1/2 -translate-y-1/2"></div>
+            <div className="h-1 w-7 bg-white relative">
+              <div className="h-px w-38 bg-white absolute left-0 top-1/2 -translate-y-1/2"></div>
             </div>
 
             <p className="text-white text-sm font-montserrat mt-3 md:mt-12 md:w-158.75 leading-7">

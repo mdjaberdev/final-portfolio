@@ -3,6 +3,7 @@ import Images from "../Images";
 import logo from "/src/assets/logo.png";
 import Container from "../Container";
 import { FaBars } from "react-icons/fa6";
+import { Link } from "react-scroll";
 
 const Header = () => {
   let [show, setShow] = useState(false);
@@ -30,19 +31,54 @@ const Header = () => {
           <nav className="hidden md:block">
             <ul className="flex gap-x-10 text-white text-sm font-medium font-montserrat items-center">
               <li>
-                <a href="/">Home</a>
+                <Link
+                  to="/"
+                  smooth={true}
+                  duration={500}
+                  className="cursor-pointer"
+                >
+                  Home
+                </Link>
               </li>
               <li>
-                <a href="#about">About</a>
+                <Link
+                  to="about"
+                  smooth={true}
+                  duration={500}
+                  className="cursor-pointer"
+                >
+                  About
+                </Link>
               </li>
               <li>
-                <a href="#projects">Portfolio</a>
+                <Link
+                  to="projects"
+                  smooth={true}
+                  duration={500}
+                  className="cursor-pointer"
+                >
+                  Portfolio
+                </Link>
               </li>
               <li>
-                <a href="#myskills">My Skills</a>
+                <Link
+                  to="myskills"
+                  smooth={true}
+                  duration={500}
+                  className="cursor-pointer"
+                >
+                  My Skills
+                </Link>
               </li>
               <li>
-                <a href="#contact">Contact</a>
+                <Link
+                  to="contact"
+                  smooth={true}
+                  duration={500}
+                  className="cursor-pointer"
+                >
+                  Contact
+                </Link>
               </li>
             </ul>
           </nav>

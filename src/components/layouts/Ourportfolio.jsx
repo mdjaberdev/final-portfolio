@@ -21,7 +21,7 @@ const Projects = () => {
           <div className="hidden md:block h-1 w-10 bg-white relative text-center mx-auto -left-30 mt-2">
             <div className="h-px w-73 bg-white absolute left-0 top-1/2 -translate-y-1/2"></div>
           </div>
-          <p className="text-[#90A1B9]   text-sm md:text-[15px] pt-1 md:pt-6 w-60 md:w-full">
+          <p className="text-gray-400  text-lg  pt-1 md:pt-6 w-60 md:w-full">
             Here are some of the projects I have built using React and Tailwind
             CSS.
           </p>
@@ -65,7 +65,7 @@ const Projects = () => {
                     <FaArrowUpRightFromSquare />
                   </a>
                   <a
-                    href="https://github.com/jaber-2004/e-Commerce"
+                    href="https://github.com/mdjaberdev/e-Commerce"
                     className="text-gray-400 text-xl hover:text-[#FE9A00] transition-colors duration-300"
                   >
                     <BsGithub />
@@ -105,14 +105,14 @@ const Projects = () => {
               <div className="">
                 <div className="flex items-center justify-around md:justify-between mt-auto">
                   <a
-                    href="https://jaber-2004.github.io/Hancok/"
+                    href="https://mdjaberdev.github.io/Hancok/"
                     className="hover:text-[#FE9A00] text-white duration-300 font-semibold text-sm flex items-center  gap-2"
                   >
                     Live Preview
                     <FaArrowUpRightFromSquare />
                   </a>
                   <a
-                    href="https://github.com/jaber-2004/Hancok"
+                    href="https://github.com/mdjaberdev/Hancok"
                     className="text-gray-400 text-xl hover:text-[#FE9A00] transition-colors duration-300"
                   >
                     <BsGithub />
@@ -149,14 +149,14 @@ const Projects = () => {
               <div className="">
                 <div className="flex items-center justify-around md:justify-between mt-auto">
                   <a
-                    href="https://jaber-2004.github.io/domFunGame/"
+                    href="https://mdjaberdev.github.io/domFunGame/"
                     className="hover:text-[#FE9A00] text-white duration-300 font-semibold text-sm flex items-center gap-2"
                   >
                     Live Preview
                     <FaArrowUpRightFromSquare />
                   </a>
                   <a
-                    href="https://github.com/jaber-2004/domFunGame"
+                    href="https://github.com/mdjaberdev/domFunGame"
                     className="text-gray-400 text-xl hover:text-[#FE9A00] transition-colors duration-300"
                   >
                     <BsGithub />
@@ -170,10 +170,10 @@ const Projects = () => {
         {/* 'See More' Button */}
         <div className="ml-3 md:ml-0 md:text-center mt-16">
           <a
-            href="https://github.com/jaber-2004"
+            href="https://github.com/mdjaberdev"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block px-8 py-3 border border-[#FE9A00] text-[#FE9A00] font-bold rounded hover:bg-[#FE9A00] hover:text-white transition-all duration-300"
+            className="inline-block px-8 py-3 border border-white/5 text-white font-bold rounded hover:bg-[#FE9A00] hover:text-white transition-all duration-300"
           >
             View All Projects
           </a>

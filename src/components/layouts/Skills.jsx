@@ -2,7 +2,6 @@ import React from "react";
 import Container from "../Container";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
-
 const Skills = () => {
   const skills = [
     { name: "HTML5", icon: "fa-brands fa-html5", color: "text-orange-500" },
@@ -23,7 +22,7 @@ const Skills = () => {
   return (
     <section
       id="myskills"
-      className="py-24 bg-[#202020] relative border-t border-white/5"
+      className="py-24 bg-[#202020] relative border-t border-white/5 font-montserrat"
     >
       {/* Background */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-200 h-200 bg-[#0ea5e9]/5 rounded-full blur-[100px] -z-10"></div>
@@ -31,16 +30,11 @@ const Skills = () => {
       <Container>
         {/* Section Title */}
         <div className="text-center mb-16">
-          <span className="text-[#0ea5e9] font-bold tracking-[0.2em] uppercase text-sm mb-4 block">
-            My Expertise
-          </span>
-          <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
-            Tech{" "}
-            <span className="text-transparent bg-clip-text bg-linear-to-r from-[#38bdf8] to-[#6366f1]">
-              Stack
-            </span>
-          </h2>
-          <p className="text-gray-400 text-lg max-w-2xl mx-auto leading-relaxed">
+          <h2 className="text-white text-[29px] font-russo">My Skills</h2>
+          <div className="hidden md:block h-1 w-8 bg-white relative text-center mx-auto -left-12 mt-2">
+            <div className="h-px w-34 bg-white absolute left-0 top-1/2 -translate-y-1/2"></div>
+          </div>
+          <p className="text-gray-400 text-lg max-w-2xl mx-auto leading-relaxed pt-5">
             I use these modern tools to build fast and user-friendly websites.
           </p>
         </div>
