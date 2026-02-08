@@ -22,7 +22,7 @@ const Skills = () => {
 
   return (
     <section
-      id="skills"
+      id="myskills"
       className="py-24 bg-[#202020] relative border-t border-white/5"
     >
       {/* Background */}
