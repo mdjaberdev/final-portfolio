@@ -6,8 +6,6 @@ import { FaRegQuestionCircle } from "react-icons/fa";
 import Typewriter from "typewriter-effect";
 
 const Banner = () => {
- 
-
   return (
     <section className="bg-[#202020] md:py-30 relative">
       <Container>
