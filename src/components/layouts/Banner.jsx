@@ -9,7 +9,7 @@ const Banner = () => {
  
 
   return (
-    <section className="bg-[#202020] md:py-40 relative">
+    <section className="bg-[#202020] md:py-30 relative">
       <Container>
         <div className="flex flex-col-reverse md:flex-row items-center justify-between">
           <div className="w-[48%] text-center md:text-start">

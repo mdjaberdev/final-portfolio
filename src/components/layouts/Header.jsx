@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Images from "../Images";
-import logo from "/src/assets/logo.png";
+import logo from "/src/assets/geminiLogo.png";
 import Container from "../Container";
 import { FaBars } from "react-icons/fa6";
 import { Link } from "react-scroll";
@@ -13,7 +13,10 @@ const Header = () => {
         <div className="flex items-center justify-between relative">
           {/* Logo */}
           <div>
-            <Images srcImg={logo} className="h-10 w-auto" />
+            {/* <Images srcImg={logo} className="h-10 w-auto" /> */}
+            <Link to={"/"} className="cursor-pointer">
+              <Images srcImg={logo} className="h-18 w-auto" />
+            </Link>
           </div>
 
           {/* Mobile Icon */}
