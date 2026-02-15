@@ -68,6 +68,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
+          Mail-JS
           <div className="">
             <form ref={form} onSubmit={sendEmail}>
               <div className="pb-5 flex flex-col md:flex-row gap-4 text-[#777777] text-[13px] font-light font-montserrat">
